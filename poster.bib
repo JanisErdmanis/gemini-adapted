@@ -1,0 +1,63 @@
+@misc{key,
+    title     = "See \url{peacefounder.org} for roadmap, {GitHub} project, code and documentation",
+    year      = "2023",
+    url       = "http://www.peacefounder.org",
+}
+
+@misc{erdmanis2022,
+  author    = {Janis Erdmanis},
+  title     = {Zero knowledge proofs of shuffle with {ShuffleProofs.jl}},
+  year      = {2022},
+  howpublished = {Presentation at the annual {JuliaCon} conference},
+  note = "Source code available on \url{github.com/PeaceFounder/ShuffleProofs.jl}"
+  }
+
+@inproceedings{Haenni2011,
+author = {Haenni, Rolf and Spycher, Oliver},
+title = {Secure Internet Voting on Limited Devices with Anonymized {DSA} Public Keys},
+year = {2011},
+publisher = {USENIX Association},
+address = {USA},
+booktitle = {Proceedings of the 2011 Conference on Electronic Voting Technology/Workshop on Trustworthy Elections},
+numpages = {1},
+location = {San Francisco, CA} }
+
+
+@inproceedings{terelius_proofs_2010,
+	address = {Berlin, Heidelberg},
+	series = {Lecture {Notes} in {Computer} {Science}},
+	title = {Proofs of {Restricted} {Shuffles}},
+	isbn = {978-3-642-12678-9},
+	doi = {10.1007/978-3-642-12678-9_7},
+	abstract = {A proof of a shuffle is a zero-knowledge proof that one list of ciphertexts is a permutation and re-encryption of another list of ciphertexts. We call a shuffle restricted if the permutation is chosen from a public subset of all permutations. In this paper, we introduce a general technique for constructing proofs of shuffles which restrict the permutation to a group that is characterized by a public polynomial. This generalizes previous work by Reiter and Wang [22], and de Hoogh et al. [7].},
+	language = {en},
+	booktitle = {Progress in {Cryptology} – {AFRICACRYPT} 2010},
+	publisher = {Springer},
+	author = {Terelius, Björn and Wikström, Douglas},
+	year = {2010},
+	keywords = {proof of a shuffle, cryptographic protocols, election schemes, mix-nets},
+	file = {Terelius and Wikström - 2010 - Proofs of Restricted Shuffles.pdf:/Users/jerdmanis/BtSync/Zotero/storage/EMASGTA3/Terelius and Wikström - 2010 - Proofs of Restricted Shuffles.pdf:application/pdf},
+}
+
+@incollection{brenner_pseudo-code_2017,
+	address = {Cham},
+	title = {Pseudo-{Code} {Algorithms} for {Verifiable} {Re}-encryption {Mix}-{Nets}},
+	volume = {10323},
+	isbn = {978-3-319-70277-3 978-3-319-70278-0},
+	url = {http://link.springer.com/10.1007/978-3-319-70278-0_23},
+	abstract = {Implementing the shuﬄe proof of a veriﬁable mix-net is one of the most challenging tasks in the implementation of an electronic voting system. For non-specialists, even if they are experienced software developers, this task is nearly impossible to fulﬁll without spending an enormous amount of resources into studying the necessary cryptographic theory. In this paper, we present one of the existing shuﬄe proofs in a condensed form and explain all the necessary technical details in corresponding pseudo-code algorithms. The goal of presenting the shuﬄe proof in this form is to make it accessible to a broader audience and to facilitate its implementation by non-specialists.},
+	language = {en},
+	urldate = {2021-11-23},
+	booktitle = {Financial {Cryptography} and {Data} {Security}},
+	publisher = {Springer International Publishing},
+	author = {Haenni, Rolf and Locher, Philipp and Koenig, Reto and Dubuis, Eric},
+	year = {2017},
+	doi = {10.1007/978-3-319-70278-0_23},
+	file = {Haenni et al. - 2017 - Pseudo-Code Algorithms for Verifiable Re-encryptio.pdf:/Users/jerdmanis/BtSync/Zotero/storage/G7J2ZTAR/Haenni et al. - 2017 - Pseudo-Code Algorithms for Verifiable Re-encryptio.pdf:application/pdf},
+}
+
+@inproceedings{10.5555/1855768.1855788, author = {Crosby, Scott A. and Wallach, Dan S.}, title = {Efficient Data Structures for Tamper-Evident Logging}, year = {2009}, publisher = {USENIX Association}, address = {USA}, abstract = {Many real-world applications wish to collect tamperevident logs for forensic purposes. This paper considers the case of an untrusted logger, serving a number of clients who wish to store their events in the log, and kept honest by a number of auditors who will challenge the logger to prove its correct behavior. We propose semantics of tamper-evident logs in terms of this auditing process. The logger must be able to prove that individual logged events are still present, and that the log, as seen now, is consistent with how it was seen in the past. To accomplish this efficiently, we describe a tree-based data structure that can generate such proofs with logarithmic size and space, improving over previous linear constructions. Where a classic hash chain might require an 800 MB trace to prove that a randomly chosen event is in a log with 80 million events, our prototype returns a 3 KB proof with the same semantics. We also present a flexible mechanism for the log server to present authenticated and tamper-evident search results for all events matching a predicate. This can allow large-scale log servers to selectively delete old events, in an agreed-upon fashion, while generating efficient proofs that no inappropriate events were deleted. We describe a prototype implementation and measure its performance on an 80 million event syslog trace at 1,750 events per second using a single CPU core. Performance improves to 10,500 events per second if cryptographic signatures are offloaded, corresponding to 1.1 TB of logging throughput per week.}, booktitle = {Proceedings of the 18th Conference on USENIX Security Symposium}, location = {Montreal, Canada}, series = {SSYM'09} }
+
+
+
+
